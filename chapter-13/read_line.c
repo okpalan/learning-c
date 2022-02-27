@@ -1,5 +1,7 @@
 #include <stdio.h>
 
+/** A string parser in C.*/
+
 int read_line(char str[],int n){
  int ch,i=0;
     while ((ch=getchar()) != '\n')
